@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/cloud/public/fonts/Roboto-Thin.ttf);
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+h4  {
+    font-weight: bold;
+    color: #266494;
+}
+h6  {
+    font-weight: bold;
+    color: #266494;
+}
+
+
+img {
+    width: 145px;
+    height: 46px;
+    text-align: center;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    width: 350px;
+
+}
+
+.textarea {
+    width: 550px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border-bottom-color: #D9007F;
+    border-bottom-width: 1.2px;
+}
+
+.btn {
+    background-color: #559680;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+}
+
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+.form-check {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: #D9007F;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+input[type=number] {
+
+    -moz-appearance: textfield;
+
+}
+
+select{
+    font-size:14px;
+}

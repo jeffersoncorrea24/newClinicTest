@@ -1,0 +1,48 @@
+.row {
+    margin-top: 17%;
+    margin-left: 11%;
+}
+
+img {
+   width: 100%;
+   float: right;
+    margin: -16% 4%;
+}
+
+#formulario{
+        top: 14px;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: #D9007F;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: 0;
+    border-bottom-color: #D9007F;
+    border-bottom-width: 1.2px;
+}
+
+#invalido {
+    width: 13%;
+    text-align: center;
+    float: right;
+    border: 1px solid #e6007e;
+    padding: 16px;
+    border-radius: 13px;
+    margin: -12% 10% 0% -16%;
+    box-shadow: 0px 0px 6px #d0d0d0;
+}

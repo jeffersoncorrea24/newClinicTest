@@ -1,0 +1,57 @@
+:root{
+    --color-principal : #2800d9;
+}
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url(../../public/fonts/Quicksand-Medium.ttf);
+}
+
+body {
+    font-family: 'Quicksand-Light';
+    color: #000;
+    background-color: #F3F3F3;
+    font-size: 12px;
+}
+
+header a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+a:focus {
+    text-decoration: none;
+    background: #E2E2E2;
+}
+
+
+header {
+    background-color: var(--color-principal);
+}
+
+.navega {
+    height: 100%;
+    padding: 0px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #666666;
+}
+
+nav a:hover {
+    background: #E2E2E2;
+}
+
+#contenido{
+    padding: 20px 20px;
+}
+
+.card{
+    padding: 20px 20px;
+}
